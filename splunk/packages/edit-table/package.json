@@ -1,6 +1,6 @@
 {
-  "name": "@marcusschiesser/edit-table",
-  "version": "1.0.6",
+  "name": "@devxom4/edit-table",
+  "version": "1.0.7",
   "license": "UNLICENSED",
   "scripts": {
     "build": "NODE_ENV=production webpack --bail",
