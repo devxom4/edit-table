@@ -18,7 +18,6 @@ jobs:
       - run: cd splunk/packages/edit-table && npm install && npm run build
 
   publish-gpr:
-    if: startsWith(github.event.ref, 'refs/tags/v')
     needs: build
     runs-on: ubuntu-latest
     steps:
