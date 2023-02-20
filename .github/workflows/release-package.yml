@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: cd splunk/packages/edit-table && npm install && npm run build
+      - run: cd splunk && yarn build
 
   publish-gpr:
     if: startsWith(github.event.ref, 'refs/tags/v')
